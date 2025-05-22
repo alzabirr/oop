@@ -23,11 +23,10 @@ obj.subtraction()
 print(obj.x)
 print(obj.y)
 """
+from test import father
 
 
-
-"""
-# multiple inheritance 
+# multiple inheritance
 
 class Father :
 
@@ -44,7 +43,7 @@ class Father :
 
 
 # this is mother class
-class Mother (Father):
+class Mother  :
 
     a =4
     b =8
@@ -59,7 +58,7 @@ class Mother (Father):
 
 
 # this is son class
-class Son (Mother,Father):
+class Son (Father,Mother):
     pass
 
 obj = Son()
@@ -69,7 +68,7 @@ obj.add()
 
 # mother
 obj.biyog()
-"""
+
 
 
 

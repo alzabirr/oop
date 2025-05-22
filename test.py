@@ -212,48 +212,103 @@ print(myclass.x)
 # static
 
 
-class my :
-    x = 1
-    y =3
-    z =x+y
+# class my :
+#     x = 1
+#     y =3
+#     z =x+y
+#
+# print(my.x)
+# print(my.z)
 
-print(my.x)
-print(my.z)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#
+# class father :
+#     x =10
+#     y =20
+#
+#
+#     def add(self):
+#         z = self.x + self.y
+#         print(z)
+#
+#
+#
+# class mother(father):
+#     x =2
+#     y =4
+#
+#     def add(self):
+#         z= self.x+ self.y
+#         print(z)
+#
+#
+#
+#
+# class son (mother,father):
+#     pass
+#
+#
+# # obj = son()
+# obj = father()
+# obj.add()
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# SINGLE INHARITENCE
+class father :
+
+    x =1
+    y = 5
+    @staticmethod
+    def add():
+        sub = father.x + father.y
+        print(sub)
+
+
+# father.add()
+
+class son1 (father):
+    pass
+
+
+
+
+class son2 (father):
+    pass
+
+print(father.x)
 
 
 
